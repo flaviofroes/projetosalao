@@ -1,0 +1,39 @@
+.gridLayout {
+   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background-color: var(--cor3);
+    background-size: cover;
+    height: 63vh;
+    
+}
+.gridLayout>img {
+    display:inline-block;
+    width: 38vw;
+    height: auto;
+    position: relative;
+    left: 30%;
+    top: -12%;
+    
+
+}
+.textlayout>h1 {
+   
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 6rem; 
+    color: var(--cor1);
+    text-shadow: 4px 4px 5px rgba(255, 255, 255, 0.986);
+    text-align: center;
+    /* padding-top: 40px; */
+}
+.textlayout>p {
+   font-size: 3rem;
+    color: var(--cor2);
+    font-family: "Dancing Script", cursive;
+    margin: 0 auto;
+    text-align: center;
+    
+   
+}
