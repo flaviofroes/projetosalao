@@ -1,0 +1,28 @@
+.menuHamburguer{
+    background-color: transparent;
+    cursor: pointer;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 1600px;
+    top: 100px;
+}
+.bar1, .bar2, .bar3{
+    background-color: var(--cor2);
+    height: 3px;
+    width: 100%;
+    transition: all 0.7s;
+}
+.menuHamburguer.ativo .bar1{
+      transform: rotate(45deg) translate(12px, 6px);
+}
+.menuHamburguer.ativo .bar2{
+    opacity: 0;
+    transform: scaleX(0);
+}
+.menuHamburguer.ativo .bar3{
+      transform: rotate(-45deg) translate(12px, -6px);
+}
